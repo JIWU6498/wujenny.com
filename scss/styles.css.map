@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AKAA,mDAAmD;AACnD,mDAAmD;AACnD,mDAAmD;AAEnD,AAAA,SAAS,CAAA;EACL,SAAS,EAAE,IAAI;EACf,IAAI,EAAC,OAAO;CACf;;AAED,AAAA,OAAO,CAAA;EACH,IAAI,EAAC,OAAO;CACf;;AAED,AAAA,QAAQ,CAAA;EACJ,IAAI,EAAC,OAAO;CACf",
+    "sources": [
+        "styles.scss",
+        "utilities/_index.scss",
+        "utilities/_variables.scss",
+        "utilities/_function.scss",
+        "component/_index.scss",
+        "component/_footer.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
