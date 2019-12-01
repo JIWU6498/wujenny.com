@@ -14,6 +14,25 @@
   fill: #1da1f2;
 }
 
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+.skillsIcons {
+  width: 13px;
+  height: 13px;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
