@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
     <!-- Self CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
 </head>
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
         <div class="container">
             <a class="navbar-brand" href="#">Jianing Wu</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -45,161 +45,169 @@
             </div>
         </div>
     </nav><!-- /NavBar-->
-
     <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid ">
-        <div class="container text-sm-center pt-4">
-            <h1 class="display-2">Hey, I'm Jenny</h1>
+    <div class="jumbotron  bg-custom-bold mb-0">
+        <div class="container text-sm-center">
+            <h1 class="display-1">Hey, I'm Jenny</h1>
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div><!-- /Jumbotron-->
-
     <!-- Recent Projects -->
-    <div class="container pt-6" id="projects">
-        <h1 class="display-5 text-center my-4 text-muted">Recent Projects</h1>
-        <div class="row">
-            <div class="col-md-6 text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-01.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">Responsive Website</h5>
-                    <p class="card-text">Build a responsive,mobile-first layout using HTML and CSS. </p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project2/" class="btn btn-outline-light btn btn-outline-light-primary"
-                            target="_blank">View</a>
+    <div class="container-fluid bg-custom-complimentary">
+        <div class="container pt-6 " id="projects">
+            <h1 class="display-5 text-center py-4 text-muted">Recent Projects</h1>
+            <div class="row">
+                <div class="col-md-6 text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-01.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Responsive Website</h5>
+                        <p class="card-text">Build a responsive,mobile-first layout using HTML and CSS. </p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project2/"
+                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-03.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">Web Style Guide Study</h5>
-                    <p class="card-text">Using SASS to pre-process the css styles to format the page.</p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project4/" class="btn btn-outline-light btn btn-outline-light-primary"
-                            target="_blank">View</a>
+                <div class="col-md-6 text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-03.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Style Guide Study</h5>
+                        <p class="card-text">Using SASS to pre-process the css styles to format the page.</p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project4/"
+                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-04.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">Interactive Photo Gallery</h5>
-                    <p class="card-text">Using jQuery plugin to create an interative photo gallery.</p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project5/" class="btn btn-outline-light btn btn-outline-light-primary"
-                            target="_blank">View</a>
+                <div class="col-md-6 text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-04.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Interactive Photo Gallery</h5>
+                        <p class="card-text">Using jQuery plugin to create an interative photo gallery.</p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project5/"
+                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6  text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-05.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">Game Show App</h5>
-                    <p class="card-text">Using DOM scripting to create a browser version of “Wheel of Success”.</p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project6/" class="btn btn-outline-light btn btn-outline-light-primary"
-                            target="_blank">View</a>
+                <div class="col-md-6  text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-05.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Game Show App</h5>
+                        <p class="card-text">Using DOM scripting to create a browser version of “Wheel of Success”.</p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project6/"
+                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-06.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">WebApp Dashboard</h5>
-                    <p class="card-text">Built a web dashboard with JavaScript-driven charts and graphs.</p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project7/" class="btn btn-outline-light btn btn-outline-light-primary "
-                            target="_blank">View</a>
+                <div class="col-md-6 text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-06.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">WebApp Dashboard</h5>
+                        <p class="card-text">Built a web dashboard with JavaScript-driven charts and graphs.</p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project7/"
+                                class="btn btn-outline-light btn btn-outline-light-primary " target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 text-center col-lg-4">
-                <img class="card-img-top" src="images/projectsUI-07.jpg" alt="mobile responsive">
-                <div class="card-body">
-                    <h5 class="card-title">Employee Directory</h5>
-                    <p class="card-text">Communicating with APIs which allows to work with microservices.</p>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://jiwu6498.github.io/Techdegree-Project8/" class="btn btn-outline-light btn btn-outline-light-primary"
-                            target="_blank">View</a>
+                <div class="col-md-6 text-center col-lg-4">
+                    <img class="card-img-top" src="images/projectsUI-07.jpg" alt="mobile responsive">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee Directory</h5>
+                        <p class="card-text">Communicating with APIs which allows to work with microservices.</p>
+                        <div class="card-footer bg-transparent border-0">
+                            <a href="https://jiwu6498.github.io/Techdegree-Project8/"
+                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div><!-- /projects-->
+            </div><!-- /projects-->
+        </div>
     </div>
-
     <!-- Callout -->
     <!-- <div class="bd-callout bd-callout-warning container">Start Small, Think Big and Wait for opportunities!
     </div> -->
     <!-- /Callout -->
 
     <!--Skills-->
-    <div class="container-fluid text-center bg-dark text-white">
-        <div class="container ">
-        <h1 class="display-5 text-center py-4">Other Knowledge and Skills</h1>
-        <div class="row justify-content-center">
-            <ul class="nav ">
-                <li class="nav-item mr-3">
-                    <button type="button" class="btn btn-outline-light ">Front End Development</button>
-                </li>
-                <li class="nav-item mr-3">
-                    <button type="button" class="btn btn-outline-light ">Back End Development</button>
-                    <a class="nav-link" href="#"></a>
-                </li>
-                <li class="nav-item mr-3">
-                    <button type="button" class="btn btn-outline-light ">UX/UI Design</button>
-
-                </li>
-                <li class="nav-item mr-3">
-                    <button type="button" class="btn btn-outline-light ">Software Quality Assurance</button>
-                </li>
-            </ul>
-        </div>
-        <div class="row my-4">
-            <div class="col">
-                <img src="images/icons/html5.svg" class="skillIcons" /><h5>
-                HTML5
-                </h5>
+    <div class="container-fluid text-center bg-custom-light text-white">
+        <div class="container">
+            <h1 class="display-5 text-center py-4">Other Knowledge and Skills</h1>
+            <div class="row justify-content-center">
+                <ul class="nav ">
+                    <li class="nav-item mr-3">
+                        <button type="button" class="btn btn-outline-light">
+                            Front End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <button type="button" class="btn btn-outline-light">
+                            Back End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <button type="button" class="btn btn-outline-light">
+                            UX/UI Design
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <button type="button" class="btn btn-outline-light">
+                            Software Quality Assurance
+                        </button>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
-                <img src="images/icons/css3.svg" class="skillIcons" /><h5>
-                CSS3</h5>
-            </div>
-            <div class="col">
-                <img src="images/icons/sass.svg" class="skillIcons" /><h5>
-                SASS</h5>
-            </div>
-            <div class="col">
-                <img src="images/icons/javascript.svg" class="skillIcons"/><h5>
-                JavaScript</h5>
-            </div>
-            <div class="col">
-                    <img src="images/icons/css3.svg" class="skillIcons" /><h5>
-                    CSS3</h5>
+            <div class="row pb-4">
+                <div class="col">
+                    <img src="images/icons/html5.svg" class="skillIcons mb-2" />
+                    <h5>
+                        HTML5
+                    </h5>
                 </div>
                 <div class="col">
-                    <img src="images/icons/sass.svg" class="skillIcons" /><h5>
-                    SASS</h5>
+                    <img src="images/icons/css3.svg" class="skillIcons mb-2" />
+                    <h5>
+                        CSS3
+                    </h5>
                 </div>
                 <div class="col">
-                    <img src="images/icons/javascript.svg" class="skillIcons"/><h5>
-                    JavaScript</h5>
+                    <img src="images/icons/sass.svg" class="skillIcons mb-2" />
+                    <h5>
+                        SASS
+                    </h5>
                 </div>
                 <div class="col">
-                        <img src="images/icons/javascript.svg" class="skillIcons"/><h5>
-                        JavaScript</h5>
-                    </div>
-                    <div class="col">
-                            <img src="images/icons/javascript.svg" class="skillIcons"/><h5>
-                            JavaScript</h5>
-                        </div>
-                   
+                    <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
+                    <h5>
+                        JavaScript
+                    </h5>
+                </div>
+                <div class="col">
+                    <img src="images/icons/css3.svg" class="skillIcons mb-2" />
+                    <h5>
+                        CSS3
+                    </h5>
+                </div>
+                <div class="col">
+                    <img src="images/icons/sass.svg" class="skillIcons mb-2" />
+                    <h5>
+                        SASS
+                    </h5>
+                </div>
+                <div class="col">
+                    <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
+                    <h5>
+                        JavaScript
+                    </h5>
+                </div>
+            </div>
         </div>
-        </div>
-
     </div>
 
     <!-- Contact -->
-    <footer class="container-fluid bg-light py-4 text-center text-md-left m-0" id="contact">
+    <footer class="container-fluid bg-custom-bold py-4 text-center text-md-left m-0" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
