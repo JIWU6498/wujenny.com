@@ -173,6 +173,14 @@
     left: 0;
   }
 }
+#about {
+  height: 40vh;
+  border-top: 3px solid #f7931e;
+}
+
+#education {
+  height: 100vh;
+}
 
 /*# sourceMappingURL=styles.css.map */
 

@@ -10,53 +10,56 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
     <!-- Self CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
+
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top py-2">
         <div class="container">
-            <a class="navbar-brand" href="#">Jianing Wu</a>
+            <a class="navbar-brand" href="#">
+                <svg width="60" height="40" class="jwlogo">
+                    <use xlink:href="#logo" />
+                </svg>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse font-weight-bold justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-right">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav><!-- /NavBar-->
-    <!-- Jumbotron -->
-    <div class="jumbotron  bg-dark mb-0">
-        <div class="container text-sm-center">
-            <h1 class="display-1">Hey, I'm Jenny</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div><!-- /Jumbotron-->
+
+    <div class="about" id="about">
+    </div>
+
     <!-- Recent Projects -->
-    <div class="container-fluid">
-        <div class="container pt-6 " id="projects">
-            <h1 class="display-5 text-center py-4 text-muted">Recent Projects</h1>
+    <div class="container-fluid" id="projects">
+        <div class="container">
+            <h1 class="display-6 text-center py-4">Recent Projects</h1>
             <div class="row">
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-01.jpg" alt="mobile responsive">
@@ -64,8 +67,8 @@
                         <h5 class="card-title">Responsive Website</h5>
                         <p class="card-text">Build a responsive,mobile-first layout using HTML and CSS. </p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project2/"
-                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project2/" class="btn btn-outline-dark"
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +78,8 @@
                         <h5 class="card-title">Web Style Guide Study</h5>
                         <p class="card-text">Using SASS to pre-process the css styles to format the page.</p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project4/"
-                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project4/" class="btn btn-outline-dark"
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
@@ -86,8 +89,8 @@
                         <h5 class="card-title">Interactive Photo Gallery</h5>
                         <p class="card-text">Using jQuery plugin to create an interative photo gallery.</p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project5/"
-                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project5/" class="btn btn-outline-dark"
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
@@ -97,8 +100,8 @@
                         <h5 class="card-title">Game Show App</h5>
                         <p class="card-text">Using DOM scripting to create a browser version of “Wheel of Success”.</p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project6/"
-                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project6/" class="btn btn-outline-dark"
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
@@ -108,8 +111,8 @@
                         <h5 class="card-title">WebApp Dashboard</h5>
                         <p class="card-text">Built a web dashboard with JavaScript-driven charts and graphs.</p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project7/"
-                                class="btn btn-outline-light btn btn-outline-light-primary " target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project7/" class="btn btn-outline-dark "
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
@@ -119,96 +122,18 @@
                         <h5 class="card-title">Employee Directory</h5>
                         <p class="card-text">Communicating with APIs which allows to work with microservices.</p>
                         <div class="card-footer bg-transparent border-0">
-                            <a href="https://jiwu6498.github.io/Techdegree-Project8/"
-                                class="btn btn-outline-light btn btn-outline-light-primary" target="_blank">View</a>
+                            <a href="https://jiwu6498.github.io/Techdegree-Project8/" class="btn btn-outline-dark"
+                                target="_blank">View</a>
                         </div>
                     </div>
                 </div>
-            </div><!-- /projects-->
+            </div>
         </div>
-    </div>
-    <!-- Callout -->
-    <!-- <div class="bd-callout bd-callout-warning container">Start Small, Think Big and Wait for opportunities!
-    </div> -->
-    <!-- /Callout -->
+    </div><!-- /projects-->
 
-    <!--Skills-->
-    <div class="container-fluid text-center bg-success">
-        <div class="container">
-            <h1 class="display-5 text-center py-4">Other Knowledge and Skills</h1>
-            <div class="row justify-content-center">
-                <ul class="nav ">
-                    <li class="nav-item mr-3">
-                        <button type="button" class="btn btn-outline-light">
-                            Front End Development
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <button type="button" class="btn btn-outline-light">
-                            Back End Development
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <button type="button" class="btn btn-outline-light">
-                            UX/UI Design
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <button type="button" class="btn btn-outline-light">
-                            Software Quality Assurance
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="row pb-4">
-                <div class="col">
-                    <img src="images/icons/html5.svg" class="skillIcons mb-2" />
-                    <h5>
-                        HTML5
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/css3.svg" class="skillIcons mb-2" />
-                    <h5>
-                        CSS3
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/sass.svg" class="skillIcons mb-2" />
-                    <h5>
-                        SASS
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
-                    <h5>
-                        JavaScript
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/css3.svg" class="skillIcons mb-2" />
-                    <h5>
-                        CSS3
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/sass.svg" class="skillIcons mb-2" />
-                    <h5>
-                        SASS
-                    </h5>
-                </div>
-                <div class="col">
-                    <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
-                    <h5>
-                        JavaScript
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Education -->
-
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark py-4" id="education">
+        <h1 class="display-6 text-center text-white py-4">Education</h1>
         <div class="container timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">
@@ -283,13 +208,11 @@
                         </p>
                 </div>
             </div>
-            
+
         </div>
     </div>
-
-
     <!-- Contact -->
-    <footer class="container-fluid bg-light py-4 text-center text-md-left m-0" id="contact">
+    <footer class="container-fluid bg-light py-4 text-center text-md-left" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -333,6 +256,69 @@
         </div>
     </footer>
 
+    <!--Skills-->
+    <!-- <div class="container-fluid text-center bg-dark">
+        <div class="container">
+            <h1 class="display-5 text-center py-4 text-white">Knowledge and Skills</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <ul class="nav ">
+                            <li class="nav-item mr-3">
+                                <button type="button" class="btn btn-outline-light">
+                                    Front End Development
+                                </button>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <button type="button" class="btn btn-outline-light">
+                                    Back End Development
+                                </button>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <button type="button" class="btn btn-outline-light">
+                                    UX/UI Design
+                                </button>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <button type="button" class="btn btn-outline-light">
+                                    Software Quality Assurance
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row pb-4">
+                        <div class="col">
+                            <img src="images/icons/html5.svg" class="skillIcons mb-2" />
+                            <h5>
+                                HTML5
+                            </h5>
+                        </div>
+                        <div class="col">
+                            <img src="images/icons/css3.svg" class="skillIcons mb-2" />
+                            <h5>
+                                CSS3
+                            </h5>
+                        </div>
+                        <div class="col">
+                            <img src="images/icons/sass.svg" class="skillIcons mb-2" />
+                            <h5>
+                                SASS
+                            </h5>
+                        </div>
+                        <div class="col">
+                            <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
+                            <h5>
+                                JavaScript
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
     <!-- SVG Graphics -->
     <!-- LinkedIn -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -355,6 +341,17 @@
                 d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z" />
         </symbol>
     </svg>
+    <!-- Personal log -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="logo" viewBox="0 0 145.7 97.7">>
+            <g>
+                <g fill="#f7931e">
+                    <path d="M2.4 95.3V1.4h93.9L2.4 95.3z" opacity=".51" />
+                    <path d="M49.4 95.3V1.4h93.9L49.4 95.3z" opacity=".5" />
+                </g>
+            </g>
+        </symbol>
+    </svg>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -368,8 +365,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
         </script>
-    <script src="js/scrollme/jquery.scrollme.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/app.js"></script>
 </body>
 
