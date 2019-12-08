@@ -12,6 +12,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Basic&display=swap" rel="stylesheet">
     <!-- Self CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -53,13 +54,77 @@
         </div>
     </nav><!-- /NavBar-->
 
-    <div class="about" id="about">
+    <!-- About -->
+    <div class="container-fluid" id="about">
+        <div class="container my-auto">
+            <div id="aboutme" class="h-100 text-center text-white my-auto">
+                <h5 class="hello">Hey, I'm</h5>
+                <h3 class="name">Jianing Wu</h3>
+                <button type="button" class="btn btn-outline-light">Download Resume</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container-fluid text-center" id="skills">
+        <div class="container">
+            <h1 class="display-5 text-center py-4 ">Skills</h1>
+            <div class="row justify-content-center pb-4">
+                <ul class="nav">
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-dark">
+                            Front End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-dark">
+                            Back End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-dark">
+                            UX/UI Design
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-dark">
+                            Software Quality Assurance
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li class="media col-md-6">
+                        <img src="images/icons/html5.svg" class="mr-3" alt="html5">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">HTML5</h5>
+                            Cras sit amet nibh libero, in gravida nulla. 
+                        </div>
+                    </li>
+                    <li class="media my-4 col-md-6 ">
+                        <img src="images/icons/css3.svg" class="mr-3" alt="css3">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">CSS3</h5>
+                            Cras sit amet nibh libero, in gravida nulla. 
+                        </div>
+                    </li>
+                    <li class="media col-md-6">
+                        <img src="images/icons/javascript.svg" class="mr-3" alt="JavaScript">
+                        <div class="media-body">
+                            <h5 class="mt-0 mb-1">JavaScript</h5>
+                            Cras sit amet nibh libero, in gravida nulla. 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- Recent Projects -->
-    <div class="container-fluid" id="projects">
+    <div class="container-fluid py-5" id="projects">
         <div class="container">
-            <h1 class="display-6 text-center py-4">Recent Projects</h1>
+            <h1 class="display-6 text-center py-5">Recent Projects</h1>
             <div class="row">
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-01.jpg" alt="mobile responsive">
@@ -132,8 +197,8 @@
     </div><!-- /projects-->
 
     <!-- Education -->
-    <div class="container-fluid bg-dark py-4" id="education">
-        <h1 class="display-6 text-center text-white py-4">Education</h1>
+    <div class="container-fluid bg-dark py-5" id="education">
+        <h1 class="display-6 text-center text-white py-5">Education</h1>
         <div class="container timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">
@@ -212,7 +277,7 @@
         </div>
     </div>
     <!-- Contact -->
-    <footer class="container-fluid bg-light py-4 text-center text-md-left" id="contact">
+    <footer class="container-fluid bg-light py-5 text-center text-md-left" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -236,7 +301,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row py-3">
+            <div class="row py-4">
                 <div class="col-md-4"></div>
                 <div class="col-md-8">
                     <h1>Get In Touch</h1>
@@ -256,68 +321,6 @@
         </div>
     </footer>
 
-    <!--Skills-->
-    <!-- <div class="container-fluid text-center bg-dark">
-        <div class="container">
-            <h1 class="display-5 text-center py-4 text-white">Knowledge and Skills</h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="row justify-content-center">
-                        <ul class="nav ">
-                            <li class="nav-item mr-3">
-                                <button type="button" class="btn btn-outline-light">
-                                    Front End Development
-                                </button>
-                            </li>
-                            <li class="nav-item mr-3">
-                                <button type="button" class="btn btn-outline-light">
-                                    Back End Development
-                                </button>
-                            </li>
-                            <li class="nav-item mr-3">
-                                <button type="button" class="btn btn-outline-light">
-                                    UX/UI Design
-                                </button>
-                            </li>
-                            <li class="nav-item mr-3">
-                                <button type="button" class="btn btn-outline-light">
-                                    Software Quality Assurance
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="row pb-4">
-                        <div class="col">
-                            <img src="images/icons/html5.svg" class="skillIcons mb-2" />
-                            <h5>
-                                HTML5
-                            </h5>
-                        </div>
-                        <div class="col">
-                            <img src="images/icons/css3.svg" class="skillIcons mb-2" />
-                            <h5>
-                                CSS3
-                            </h5>
-                        </div>
-                        <div class="col">
-                            <img src="images/icons/sass.svg" class="skillIcons mb-2" />
-                            <h5>
-                                SASS
-                            </h5>
-                        </div>
-                        <div class="col">
-                            <img src="images/icons/javascript.svg" class="skillIcons mb-2" />
-                            <h5>
-                                JavaScript
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <!-- SVG Graphics -->
     <!-- LinkedIn -->

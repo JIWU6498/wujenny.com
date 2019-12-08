@@ -1,3 +1,7 @@
+* {
+  font-family: 'Alatsi', sans-serif;
+}
+
 /* ============================================= */
 /*              Footer styles                    */
 /* ============================================= */
@@ -170,14 +174,61 @@
   }
 }
 
-#about{
-  height:40vh;
-  border-top: 3px solid #f7931e;
+/* ============================================= */
+/*              Navigation styles                */
+/* ============================================= */
+.nav-item {
+  font-size: 1.3em;
 }
 
-#education{
-  height:100vh;
+#about {
+  height: 50vh;
+  padding: 100px 0;
+  background-color: #f7931e;
 }
 
+#education {
+  height: 100vh;
+}
 
+/* ============================================= */
+/*              Skills styles                    */
+/* ============================================= */
+/* ============================================= */
+/*              About styles                     */
+/* ============================================= */
+h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#aboutme {
+  width: 50%;
+  vertical-align: auto;
+  margin: auto;
+}
+
+h3:before,
+h3:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+}
+
+.hello {
+  font: italic;
+}
+
+.name {
+  font-family: 'Basic', sans-serif;
+  font-size: 5em;
+}
 /*# sourceMappingURL=styles.css.map */
