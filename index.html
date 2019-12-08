@@ -21,7 +21,7 @@
 <body>
 
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top py-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top py-2" id="nav">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <svg width="60" height="40" class="jwlogo">
@@ -36,9 +36,6 @@
                 <ul class="navbar-nav text-right">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -56,76 +53,21 @@
 
     <!-- About -->
     <div class="container-fluid" id="about">
-        <div class="container my-auto">
-            <div id="aboutme" class="h-100 text-center text-white my-auto">
+        <div class="container text-center text-white my-auto vertical-center">
+            <div id="aboutme">
                 <h5 class="hello">Hey, I'm</h5>
                 <h3 class="name">Jianing Wu</h3>
-                <button type="button" class="btn btn-outline-light">Download Resume</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Skills -->
-    <div class="container-fluid text-center" id="skills">
-        <div class="container">
-            <h1 class="display-5 text-center py-4 ">Skills</h1>
-            <div class="row justify-content-center pb-4">
-                <ul class="nav">
-                    <li class="nav-item mr-3 mb-2">
-                        <button type="button" class="btn btn-outline-dark">
-                            Front End Development
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3 mb-2">
-                        <button type="button" class="btn btn-outline-dark">
-                            Back End Development
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3 mb-2">
-                        <button type="button" class="btn btn-outline-dark">
-                            UX/UI Design
-                        </button>
-                    </li>
-                    <li class="nav-item mr-3 mb-2">
-                        <button type="button" class="btn btn-outline-dark">
-                            Software Quality Assurance
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="row">
-                <ul class="list-unstyled">
-                    <li class="media col-md-6">
-                        <img src="images/icons/html5.svg" class="mr-3" alt="html5">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">HTML5</h5>
-                            Cras sit amet nibh libero, in gravida nulla. 
-                        </div>
-                    </li>
-                    <li class="media my-4 col-md-6 ">
-                        <img src="images/icons/css3.svg" class="mr-3" alt="css3">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">CSS3</h5>
-                            Cras sit amet nibh libero, in gravida nulla. 
-                        </div>
-                    </li>
-                    <li class="media col-md-6">
-                        <img src="images/icons/javascript.svg" class="mr-3" alt="JavaScript">
-                        <div class="media-body">
-                            <h5 class="mt-0 mb-1">JavaScript</h5>
-                            Cras sit amet nibh libero, in gravida nulla. 
-                        </div>
-                    </li>
-                </ul>
+                <button type="button" class="btn btn-outline-light">View My Work</button>
             </div>
         </div>
     </div>
 
     <!-- Recent Projects -->
-    <div class="container-fluid py-5" id="projects">
+    <div class="container-fluid" id="projects">
         <div class="container">
-            <h1 class="display-6 text-center py-5">Recent Projects</h1>
+            <h1 class="display-6 text-center">Recent Projects</h1>
             <div class="row">
+
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-01.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -137,6 +79,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-03.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -148,6 +91,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-04.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -159,6 +103,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6  text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-05.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -170,6 +115,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-06.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -181,6 +127,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 text-center col-lg-4">
                     <img class="card-img-top" src="images/projectsUI-07.jpg" alt="mobile responsive">
                     <div class="card-body">
@@ -192,6 +139,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div><!-- /projects-->
@@ -276,6 +224,7 @@
 
         </div>
     </div>
+
     <!-- Contact -->
     <footer class="container-fluid bg-light py-5 text-center text-md-left" id="contact">
         <div class="container">
@@ -355,6 +304,38 @@
             </g>
         </symbol>
     </svg>
+
+
+    <!-- Skills -->
+    <!-- <div class="container-fluid text-center bg-dark py-5" id="skills">
+        <div class="container">
+            <h1 class="display-5 text-center py-4 text-white">Skills</h1>
+            <div class="row justify-content-center py-4">
+                <ul class="nav">
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-light">
+                            Front End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-light">
+                            Back End Development
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-light">
+                            UX/UI Design
+                        </button>
+                    </li>
+                    <li class="nav-item mr-3 mb-2">
+                        <button type="button" class="btn btn-outline-light">
+                            Software Quality Assurance
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

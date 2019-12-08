@@ -31,10 +31,6 @@
   border-left-color: #f0ad4e;
 }
 
-.skillsIcons {
-  max-width: 100%;
-}
-
 /* ============================================= */
 /*              Education styles                 */
 /* ============================================= */
@@ -177,18 +173,13 @@
 /* ============================================= */
 /*              Navigation styles                */
 /* ============================================= */
+#nav {
+  height: 8vh;
+  border-bottom: 3px solid #f7931e;
+}
+
 .nav-item {
   font-size: 1.3em;
-}
-
-#about {
-  height: 50vh;
-  padding: 100px 0;
-  background-color: #f7931e;
-}
-
-#education {
-  height: 100vh;
 }
 
 /* ============================================= */
@@ -197,38 +188,54 @@
 /* ============================================= */
 /*              About styles                     */
 /* ============================================= */
-h3 {
+#about {
+  background-color: #f7931e;
+}
+
+@media (min-width: 720px) {
+  #about {
+    height: 92vh;
+  }
+}
+
+#about .vertical-center {
+  min-height: 100%;
+  min-height: 92vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#aboutme {
-  width: 50%;
-  vertical-align: auto;
+#about #aboutme {
   margin: auto;
 }
 
-h3:before,
-h3:after {
-  content: "";
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
-  border-bottom: 2px solid #fff;
-  margin: auto;
+#about #aboutme .hello {
+  font-style: italic;
 }
 
-.hello {
-  font: italic;
-}
-
-.name {
+#about #aboutme .name {
   font-family: 'Basic', sans-serif;
   font-size: 5em;
+  padding-bottom: 20px;
+}
+
+/* ============================================= */
+/*               Projects styles                 */
+/* ============================================= */
+#projects {
+  padding: 100px 0;
+}
+
+#projects h1 {
+  padding-top: 50px 0;
+  padding-bottom: 40px;
+}
+
+.skillsIcons {
+  max-width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
