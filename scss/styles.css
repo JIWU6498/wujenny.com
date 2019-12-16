@@ -194,7 +194,7 @@
 
 @media (min-width: 720px) {
   #about {
-    height: 92vh;
+    height: 100vh;
   }
 }
 
@@ -226,13 +226,10 @@
 /* ============================================= */
 /*               Projects styles                 */
 /* ============================================= */
-#projects {
-  padding: 100px 0;
-}
-
 #projects h1 {
   padding-top: 50px 0;
   padding-bottom: 40px;
+  color: #dcc7aa;
 }
 
 .skillsIcons {

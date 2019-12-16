@@ -79,7 +79,7 @@
                             <h5 class="card-title">Responsive Website</h5>
                             <p class="card-text">Build a responsive,mobile-first layout using HTML and CSS. </p>
                             <div class="card-footer bg-transparent border-0">
-                                <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -95,7 +95,7 @@
                             <h5 class="card-title">Web Style Guide Study</h5>
                             <p class="card-text">Using SASS to pre-process the css styles to format the page.</p>
                             <div class="card-footer bg-transparent border-0">
-                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -111,7 +111,7 @@
                             <h5 class="card-title">Interactive Photo Gallery</h5>
                             <p class="card-text">Using jQuery plugin to create an interative photo gallery.</p>
                             <div class="card-footer bg-transparent border-0">
-                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -130,7 +130,7 @@
                             <div class="card-footer bg-transparent border-0">
                                 <!-- <a href="https://jiwu6498.github.io/Techdegree-Project6/" class="btn btn-outline-dark"
                                     target="_blank">View</a> -->
-                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -146,7 +146,7 @@
                             <div class="card-footer bg-transparent border-0">
                                 <!-- <a href="https://jiwu6498.github.io/Techdegree-Project7/" class="btn btn-outline-dark "
                                     target="_blank">View</a> -->
-                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -162,7 +162,7 @@
                             <div class="card-footer bg-transparent border-0">
                                 <!-- <a href="https://jiwu6498.github.io/Techdegree-Project8/" class="btn btn-outline-dark"
                                     target="_blank">View</a> -->
-                                    <button type="button" class="btn btn-outline-dark" data-toggle="modal"
+                                <button type="button" class="viewBtn btn btn-outline-dark" data-toggle="modal"
                                     data-target="#projectsModal">
                                     View
                                 </button>
@@ -295,29 +295,8 @@
     </div><!-- /Main Body-->
 
     <!--Projects Modal -->
-    <div class="modal fade" id="projectsModal" data-backdrop="static" tabindex="-1" role="dialog"
-        aria-labelledby="projectsModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="projectsModalLabel">Responsive Website</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="images/projectsUI-01.jpg" class="card-img-top" alt="...">
-                    <h5>Description:</h5>
-                    <p>Build a responsive,mobile-first layout using HTML and CSS. This layout demonstrates my understanding of responsive design by adjusting to accommodate small, medium and large screen sizes. I wrote CSS to style the page for the small mobile device first and then use min-width media queries. I also add breakpoints to adjust the layout for wider tablet and desktop screens.</p>
-                    <h5>Skills:</h5>
-                    <p>HTML5, CSS, JavaScript</p>  
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Preview</button>
-                    <button type="button" class="btn btn-primary">GitHub Rep</button>
-                </div>
-            </div>
+    <div id="modalContainer">
+        <div class="modal fade" id="projectsModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel" aria-hidden="true">
         </div>
     </div>
 

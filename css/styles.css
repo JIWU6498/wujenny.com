@@ -45,9 +45,11 @@
   margin: 30px auto;
   padding: 0 10px;
   position: relative;
+  -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   width: 100%;
 }
+
 .timeline::before {
   background: white;
   content: "";
@@ -57,25 +59,33 @@
   top: 0;
   width: 3px;
 }
+
 .timeline::after {
   clear: both;
   content: "";
   display: table;
   width: 100%;
 }
+
 .timeline a {
   color: white;
   font-weight: bold;
+  -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
 }
+
 .timeline a:hover {
+  -webkit-box-shadow: 0 1px 0px 0px white;
   box-shadow: 0 1px 0px 0px white;
+  -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
 }
+
 .timeline .timeline-item {
   margin-bottom: 50px;
   position: relative;
 }
+
 .timeline .timeline-item .timeline-icon {
   background: white;
   border-radius: 50%;
@@ -87,40 +97,49 @@
   top: 0;
   width: 50px;
 }
+
 .timeline .timeline-item .timeline-icon img,
 .timeline .timeline-item .timeline-icon svg {
   left: 14px;
   position: relative;
   top: 11px;
 }
+
 .timeline .timeline-item .timeline-icon svg {
   top: 14px;
 }
+
 .timeline .timeline-item .timeline-content {
   padding: 20px;
   text-align: right;
+  -webkit-transition: all 0.25s ease-in;
   transition: all 0.25s ease-in;
   width: 45%;
   background: transparent;
 }
+
 .timeline .timeline-item .timeline-content p {
   color: white;
 }
+
 .timeline .timeline-item .timeline-content p {
   font-size: 16px;
   line-height: 1.4;
   margin-bottom: 0;
 }
+
 .timeline .timeline-item .timeline-content .timeline-content-date {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
 }
+
 .timeline .timeline-item .timeline-content .timeline-content-month {
   font-size: rem-calc(14);
   text-transform: uppercase;
   font-weight: 400;
 }
+
 .timeline .timeline-item .timeline-content.right {
   float: right;
   text-align: left;
@@ -132,20 +151,24 @@
     padding: 0;
     width: 90%;
   }
+
   .timeline::before {
     left: 0;
   }
+
   .timeline .timeline-item .timeline-content {
     float: right;
     text-align: left;
     width: 90%;
   }
+
   .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
     border-left: 0;
     border-right: 7px solid white;
     left: 10%;
     margin-left: -6px;
   }
+
   .timeline .timeline-item .timeline-icon {
     left: 0;
   }
@@ -171,6 +194,7 @@
 #about {
   background-color: #f7931e;
 }
+
 @media (min-width: 720px) {
   #about {
     height: 100vh;
@@ -179,15 +203,22 @@
 #about .vertical-center {
   min-height: 100%;
   min-height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 #about #aboutme {
   margin: auto;
 }
+
 #about #aboutme .hello {
   font-style: italic;
 }
+
 #about #aboutme .name {
   font-family: "Basic", sans-serif;
   font-size: 5em;
@@ -200,10 +231,13 @@
 #projects h1 {
   padding-top: 50px 0;
   padding-bottom: 40px;
+  color: #dcc7aa;
 }
 
 .skillsIcons {
   max-width: 100%;
 }
+
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
