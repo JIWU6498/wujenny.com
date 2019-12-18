@@ -3,7 +3,9 @@
 /* ============================================= */
 #about {
     
-    background-color: #f7931e;
+    background-color: $primary-light;
+
+    color:$primary;
 
     @include media-query-m($break-m) {
         height: 100vh;
@@ -27,6 +29,11 @@
             font-family: 'Basic', sans-serif;
             font-size: 5em;
             padding-bottom:20px;
+        }
+
+        .btn{
+            color:$secondary;
+            border-color:$secondary;
         }
     }
 

@@ -97,15 +97,15 @@ for (let i = 0; i < viewButtons.length; i++) {
 				</div>
 				<div class="modal-body">
 					<img id="projectImg" src=${projects.projects[i].img} class="card-img-top text-secondary rounded" alt=${projects.projects[i].img} >
-					<h5 class="my-3 text-uppercase text-secondary">Description:</h5>
-					<p>${projects.projects[i].description}</p>
-					<h5 class="my-3 text-uppercase">Skills:</h5>
-					<p>${projects.projects[i].skills}</p>  
+					<h5 class="my-3 text-uppercase heading">Description</h5>
+					<p class="info">${projects.projects[i].description}</p>
+					<h5 class="my-3 text-uppercase heading">Skills</h5>
+					<p class="info">${projects.projects[i].skills}</p>  
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<a href=${projects.projects[i].preview}  class="btn btn-primary" target="_blank">Preview</a>
-					<a href=${projects.projects[i].github}   class="btn btn-primary" target="_blank">GitHub Repository</a>
+					<a href=${projects.projects[i].preview}  class="btn preview text-white" target="_blank">Preview</a>
+					<a href=${projects.projects[i].github}   class="btn github text-white" target="_blank">GitHub</a>
 				</div>
 			</div>
 		</div>

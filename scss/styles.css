@@ -175,7 +175,7 @@
 /* ============================================= */
 #nav {
   height: 8vh;
-  border-bottom: 3px solid #f7931e;
+  border-bottom: 3px solid #dd7564;
 }
 
 .nav-item {
@@ -189,7 +189,8 @@
 /*              About styles                     */
 /* ============================================= */
 #about {
-  background-color: #f7931e;
+  background-color: #F0EDE6;
+  color: #dd7564;
 }
 
 @media (min-width: 720px) {
@@ -223,13 +224,59 @@
   padding-bottom: 20px;
 }
 
+#about #aboutme .btn {
+  color: #1fa5a6;
+  border-color: #1fa5a6;
+}
+
 /* ============================================= */
 /*               Projects styles                 */
 /* ============================================= */
 #projects h1 {
   padding-top: 50px 0;
   padding-bottom: 40px;
-  color: #dcc7aa;
+  color: #dd7564;
+}
+
+#projects .card-text {
+  color: #706F6C;
+}
+
+/* ============================================= */
+/*               Projects Modal styles           */
+/* ============================================= */
+#modalContainer .modal-header {
+  background-color: #F0EDE6;
+  color: #dd7564;
+}
+
+#modalContainer .heading {
+  color: #dd7564;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #1fa5a6;
+          text-decoration-color: #1fa5a6;
+}
+
+#modalContainer .info {
+  color: #706F6C;
+  text-align: center;
+}
+
+#modalContainer .modal-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#modalContainer .modal-footer .preview {
+  background-color: #dd7564;
+}
+
+#modalContainer .modal-footer .github {
+  background-color: #1fa5a6;
 }
 
 .skillsIcons {

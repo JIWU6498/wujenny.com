@@ -1,0 +1,37 @@
+/* ============================================= */
+/*               Projects Modal styles           */
+/* ============================================= */
+
+#modalContainer{
+    
+    .modal-header{
+        background-color: $primary-light;
+        color:$primary;
+        
+    }
+    
+    .heading{
+        color:$primary;
+        font-weight: bold;
+        font-family: 'Merriweather Sans', sans-serif;
+        text-align:center;
+        text-decoration: underline;
+        text-decoration-color: $secondary;
+    }
+
+    .info{
+        color:$grey;
+        text-align: center;
+    }
+
+    .modal-footer{
+        justify-content: center;
+        .preview{
+            background-color: $primary;
+        }
+        .github{
+            background-color: $secondary;
+        }
+    }
+        
+}

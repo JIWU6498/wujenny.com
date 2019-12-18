@@ -2,10 +2,17 @@
 /*               Projects styles                 */
 /* ============================================= */
 #projects {
-  
+
     h1 {
         padding-top: 50px 0;
         padding-bottom: 40px;
-        color:  $custom-dark;
+        color: $primary;
+        // font-family: 'Satisfy', cursive;
     }
+
+    .card-text{
+        color:$grey;
+    }
+
+
 }
