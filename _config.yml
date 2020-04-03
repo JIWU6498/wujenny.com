@@ -1,1 +1,21 @@
 theme: jekyll-theme-cayman
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- vendor
+
+
+# Header nav
+navigation_header:
+- title: Blog
+  url: /blog/
+
+  # Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
