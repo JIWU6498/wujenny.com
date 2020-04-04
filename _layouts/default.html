@@ -148,9 +148,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 <!-- Self JS -->
-<!-- <script src="../assets/js/app.js/"></script> -->
-
-
 {% for file in site.static_files %}
   {% if file.javascript %}
   <script src="{{file.path}}" alt="{file.name}"></script>
