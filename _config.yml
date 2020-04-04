@@ -70,3 +70,5 @@ collections:
     description: "My thoughts and ideas"
  
 
+
+theme: jekyll-theme-cayman
