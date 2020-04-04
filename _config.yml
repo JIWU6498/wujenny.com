@@ -30,14 +30,20 @@ baseurl: ''
 # Add front matter to static files
 defaults:
   - scope:
-      path: "images"
+      path: "assets/images"
     values:
       image: true
-      
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "assets/js"
     values:
-      js: true
+      javascript: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
+        
+
+
 
 # Pagination
 paginate: 5
