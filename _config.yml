@@ -48,3 +48,5 @@ collections:
     output: true
     # description: "My thoughts and ideas"
    
+
+theme: jekyll-theme-cayman
