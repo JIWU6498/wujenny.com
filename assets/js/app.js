@@ -21,7 +21,7 @@ const projects = {
 	"projects": [
 		{
 			"title": "Responsive Website",
-			"img": "../images/project2.png",
+			"img": "../assets/images/project2.png",
 			"description": "Build a responsive,mobile-first layout using HTML and CSS. This layout demonstrates my understanding of responsive design by adjusting to accommodate small, medium and large screen sizes. I wrote CSS to style the page for the small mobile device first and then use min-width media queries. I also add breakpoints to adjust the layout for wider tablet and desktop screens.",
 			"skills": "HTML5, CSS, JavaScript",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project2/",
@@ -30,7 +30,7 @@ const projects = {
 		},
 		{
 			"title": "Web Style Guide Study",
-			"img": "../images/projectsUI-01.jpg",
+			"img": "../assets/images/projectsUI-01.jpg",
 			"description": "Using SASS to pre-process the css styles to format the page",
 			"skills": "HTML5, CSS, SASS",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project4/",
@@ -39,7 +39,7 @@ const projects = {
 		},
 		{
 			"title": "Interactive Photo Gallery",
-			"img": "../images/projectsUI-01.jpg",
+			"img": "../assets/images/projectsUI-01.jpg",
 			"description": "Using jQuery plugin to create a interative photo gallery",
 			"skills": "HTML5, CSS, SASS, JavaScript, jQuery plugin",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project5/",
@@ -48,7 +48,7 @@ const projects = {
 		},
 		{
 			"title": "Game Show App",
-			"img": "../images/projectsUI-01.jpg",
+			"img": "../assets/images/projectsUI-01.jpg",
 			"description": "Create a browser version of “Wheel of Success”, a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.",
 			"skills": "HTML5, CSS, JavaScript, DOM Scripting ,CSS transition",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project6/",
@@ -57,7 +57,7 @@ const projects = {
 		},
 		{
 			"title": "WebApp Dashboard",
-			"img": "../images/projectsUI-01.jpg",
+			"img": "../assets/images/projectsUI-01.jpg",
 			"description": "Built a web dashboard based on a mockup with JavaScript-driven charts and graphs.",
 			"skills": "HTML5, CSS, SASS,CSS Transition, JavaScript ,jQury , DOM, Chart.js",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project7/",
@@ -66,7 +66,7 @@ const projects = {
 		},
 		{
 			"title": "API Employee Directory",
-			"img": "../images/projectsUI-01.jpg",
+			"img": "../assets/images/projectsUI-01.jpg",
 			"description": "Communicating with APIs which allows to work with microservices and with vast databases to build useful tools and relevant information quickly and easily.Request a JSON object from the API using fetch and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location.",
 			"skills": "JavaScript, Promise, JSON, API",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project8",

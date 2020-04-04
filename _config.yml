@@ -22,11 +22,22 @@ plugins:
 
 # Site settings
 url: 'https://jiwu6498.github.io'
-baseurl: 'jiwu6498.github.io'
+baseurl: ''
 # title: 'My website'
 # description: 'This is my new website'
 # permalink: pretty
 
+# Add front matter to static files
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+      
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      js: true
 
 # Pagination
 paginate: 5
@@ -40,6 +51,8 @@ navigation_header:
   url: /projects/
 - title: Blog
   url: /blog/
+- title: Posts
+  url: /blog/posts/
 
 # # Footer nav
 # navigation_footer:
@@ -52,6 +65,5 @@ collections:
     title: Posts
     output: true
     description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    # feature_image: "https://picsum.photos/2560/600?image=866" 
+ 
+
