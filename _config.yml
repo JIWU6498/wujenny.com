@@ -22,7 +22,7 @@ plugins:
 
 # Site settings
 url: 'https://jiwu6498.github.io'
-baseurl: '/index.md'
+baseurl: ''
 # title: 'My website'
 # description: 'This is my new website'
 # permalink: pretty
