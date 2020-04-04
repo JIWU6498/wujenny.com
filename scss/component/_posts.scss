@@ -1,0 +1,53 @@
+/* ============================================= */
+/*                   Posts Styles                */
+/* ============================================= */
+.feature {
+    min-height: 35vh;
+    background-image: url(https://picsum.photos/1300/400?image=989);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    line-height: 2rem;
+    padding-top: 1rem;
+
+    h1 {
+        padding-top: 50px 0;
+        color: $primary;
+    }
+
+    p {
+        color: $grey;
+    }
+
+    .article {
+        margin: 25px 0;
+    }
+}
+
+.section {
+    .list {
+        list-style: none;
+
+        .item {
+            .article {
+                font-size: medium;
+                margin-bottom: 50px;
+                a {
+                    color: $secondary;
+                }
+                h2 {
+                    
+                }
+
+                .small{
+                    .time{
+                        color:$grey;
+                    }
+                }
+            }
+        }
+    }
+}

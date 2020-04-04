@@ -15,11 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Basic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Halant|Montserrat|Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
-    <!-- Fullpage jquery plugin -->
-    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
     <!-- Self CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -39,24 +36,24 @@
             <div class="collapse navbar-collapse font-weight-bold justify-content-end" id="navbarNav">
                 <ul class="navbar-nav text-right">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects" onclick="$('[#projects]').animatescroll()">Projects</a>
+                        <a class="nav-link" href="/projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="/blog">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav><!-- /NavBar-->
-
-    {{content}}
-  
+   
+    {{ content }} 
+   
     <!-- Contact -->
     <footer class="section bg-light py-5 text-center text-md-left" id="contact">
         <div class="container">
@@ -101,6 +98,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 
@@ -138,7 +136,6 @@
     </symbol>
 </svg>
 
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -151,8 +148,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 </script>
 
-
 <!-- Self JS -->
-<script src="js/app.js"></script>
+<script src="../js/app.js/"></script>
 
 </html>

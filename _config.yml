@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+# Set theme
+remote_theme: daviddarnes/alembic
 
 # File excludes
 exclude:
@@ -7,6 +8,42 @@ exclude:
 - Gemfile.lock
 - vendor
 
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
 
-name: Jianing Wu
-markdown: kramdown
+# Site settings
+url: 'https://mydomain.com'
+baseurl: ''
+# title: 'My website'
+# description: 'This is my new website'
+permalink: pretty
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+# navigation_header:
+- title: Home
+  url: /
+- title: Projects
+  url: /projects/
+- title: Blog
+  url: /blog/
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    # description: "My thoughts and ideas"
+   

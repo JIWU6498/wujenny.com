@@ -136,6 +136,95 @@
   background-color: #1fa5a6;
 }
 
+/* ============================================= */
+/*                   Blog styles                 */
+/* ============================================= */
+.feature {
+  min-height: 35vh;
+  background-image: url(https://picsum.photos/1300/400?image=989);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.feature .welcome {
+  font-size: 2em;
+  color: #1fa5a6;
+  text-align: center;
+}
+
+.content {
+  line-height: 2rem;
+  padding-top: 1rem;
+}
+.content h1 {
+  padding-top: 50px 0;
+  color: #dd7564;
+}
+.content p {
+  color: #706F6C;
+}
+.content .article {
+  margin: 25px 0;
+}
+
+.section .list {
+  list-style: none;
+}
+.section .list .item .article {
+  font-size: medium;
+  margin-bottom: 50px;
+}
+.section .list .item .article a {
+  color: #1fa5a6;
+}
+.section .list .item .article .small .time {
+  color: #706F6C;
+}
+
+.nav--paginator {
+  text-align: center;
+}
+
+/* ============================================= */
+/*                   Posts Styles                */
+/* ============================================= */
+.feature {
+  min-height: 35vh;
+  background-image: url(https://picsum.photos/1300/400?image=989);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  line-height: 2rem;
+  padding-top: 1rem;
+}
+.content h1 {
+  padding-top: 50px 0;
+  color: #dd7564;
+}
+.content p {
+  color: #706F6C;
+}
+.content .article {
+  margin: 25px 0;
+}
+
+.section .list {
+  list-style: none;
+}
+.section .list .item .article {
+  font-size: medium;
+  margin-bottom: 50px;
+}
+.section .list .item .article a {
+  color: #1fa5a6;
+}
+.section .list .item .article .small .time {
+  color: #706F6C;
+}
+
 .skillsIcons {
   max-width: 100%;
 }
