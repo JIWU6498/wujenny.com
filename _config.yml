@@ -21,8 +21,8 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https:jiwu6498.github.io'
-baseurl: '/'
+url: 'https://jiwu6498.github.io'
+baseurl: '/index.md'
 # title: 'My website'
 # description: 'This is my new website'
 # permalink: pretty
