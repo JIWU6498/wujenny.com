@@ -16,7 +16,14 @@
     <link href="https://fonts.googleapis.com/css?family=Halant|Montserrat|Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
     <!-- Self CSS -->
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+    {% for file in site.static_files %}
+        {% if file.css %}
+        <link rel="stylesheet" href="{{file.path}}">
+        {% endif %}
+    {% endfor %}
+
+
 </head>
 
 <body>
