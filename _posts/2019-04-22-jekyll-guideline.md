@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World
+title: Markdown Layout Guide
 ---
 
 This is my very first blog post. I haven't written anything yet but I'm sure I have some great stories to tell.
@@ -101,8 +101,7 @@ end
 
 ### Large image
 
-
-
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 ### Definition lists can be used with HTML syntax.
 
