@@ -20,6 +20,7 @@
 
     #aboutme {
         margin:auto;
+        color: $primary;
 
         .hello {
             font-style: italic;
@@ -29,6 +30,7 @@
             font-family: 'Basic', sans-serif;
             font-size: 5em;
             padding-bottom:20px;
+            
         }
 
         .btn{

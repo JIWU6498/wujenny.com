@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Alatsi", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Alatsi', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
@@ -26,8 +26,8 @@
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   border: 1px solid #eee;
-  border-left-width: 0.25rem;
-  border-radius: 0.25rem;
+  border-left-width: .25rem;
+  border-radius: .25rem;
 }
 
 .bd-callout-warning {
@@ -51,7 +51,7 @@
 
 .nav-item {
   font-size: 1.3em;
-  font-family: "Alatsi", sans-serif;
+  font-family: 'Alatsi', sans-serif;
 }
 
 /* ============================================= */
@@ -80,6 +80,7 @@
     height: 100vh;
   }
 }
+
 #about .vertical-center {
   min-height: 100%;
   min-height: 92vh;
@@ -87,8 +88,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #about #aboutme {
@@ -101,7 +102,7 @@
 }
 
 #about #aboutme .name {
-  font-family: "Basic", sans-serif;
+  font-family: 'Basic', sans-serif;
   font-size: 5em;
   padding-bottom: 20px;
 }
@@ -135,11 +136,11 @@
 #modalContainer .heading {
   color: #dd7564;
   font-weight: bold;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
   text-decoration: underline;
   -webkit-text-decoration-color: #1fa5a6;
-  text-decoration-color: #1fa5a6;
+          text-decoration-color: #1fa5a6;
 }
 
 #modalContainer .info {
@@ -149,8 +150,8 @@
 
 #modalContainer .modal-footer {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #modalContainer .modal-footer .preview {
@@ -236,18 +237,21 @@
     font-size: 1.1rem;
   }
 }
+
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .container .article {
     padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 }
+
 @media screen and (max-width: 42em) {
   .container .article {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
 }
+
 .container .article small {
   font-size: 15px;
   line-height: 15px;
@@ -686,7 +690,4 @@
 .skillsIcons {
   max-width: 100%;
 }
-
-/*# sourceMappingURL=styles.css.map */
-
 /*# sourceMappingURL=styles.css.map */
