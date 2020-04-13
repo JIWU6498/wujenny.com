@@ -7,7 +7,7 @@ layout: default
         <div id="aboutme">
             <h5 class="hello">Hey, I'm</h5>
             <h3 class="name">Jianing Wu</h3>
-            <button type="button" class="btn btn-outline-light">View My Work</button>
+            <a type="button" class="btn btn-outline-light" href="/projects">View My Projects</a>
         </div>
     </div>
 </div>
