@@ -75,12 +75,5 @@ vi -> default editing program<br>
 vim<br>
 :w -> Enter<br>
 
-nano -> available on Linux<br>
-nano file.txt<br>
-
-
-
-
-
-
-
+nano -> available on Linux
+nano file.txt
