@@ -3,7 +3,7 @@ layout: post
 title: Markdown Layout Guide
 ---
 
-This is my very first blog post. I haven't written anything yet but I'm sure I have some great stories to tell.
+This blog is the markdown guide which is referenced from Jekyll Cayman theme. I personally like its styles thus I use cayman's styles to style my posts.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
