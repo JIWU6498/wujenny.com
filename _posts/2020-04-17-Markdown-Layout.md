@@ -124,6 +124,6 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-### Reference
+### References
 
 <a href="https://pages-themes.github.io/cayman/">Cayman Themes</a>
