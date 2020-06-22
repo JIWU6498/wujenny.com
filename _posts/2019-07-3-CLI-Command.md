@@ -3,8 +3,6 @@ layout: post
 title: Command-Line Interface CLI Cheatsheet
 ---
 
-# Command-Line Interface (CLI)
-
 ## Introduction
 This is a simple guideline and takeaway for reference.
 
