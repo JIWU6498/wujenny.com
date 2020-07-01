@@ -30,7 +30,7 @@ const projects = {
 		},
 		{
 			"title": "Web Style Guide Study",
-			"img": "../assets/images/projectsUI-01.jpg",
+			"img": "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project4-1593599055591.png",
 			"description": "Using SASS to pre-process the css styles to format the page",
 			"skills": "HTML5, CSS, SASS",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project4/",
@@ -39,7 +39,7 @@ const projects = {
 		},
 		{
 			"title": "Interactive Photo Gallery",
-			"img": "../assets/images/projectsUI-01.jpg",
+			"img": "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project5-1593599098340",
 			"description": "Using jQuery plugin to create a interative photo gallery",
 			"skills": "HTML5, CSS, SASS, JavaScript, jQuery plugin",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project5/",
