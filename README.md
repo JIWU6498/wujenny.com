@@ -1,4 +1,15 @@
 # JW-Website
+
+Todo List: 2020-07-01 
+downsize project images 
+create contact pages 
+modify blog pages
+add work experience
+add skill
+
+
+
+
  My personal website
 
 UX/UI: Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Axure RP
