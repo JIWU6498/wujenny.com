@@ -57,7 +57,7 @@ const projects = {
 		},
 		{
 			"title": "WebApp Dashboard",
-			"img": "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project7-1593599183303.jpg",
+			"img": "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project7-1593599183303.png",
 			"description": "Built a web dashboard based on a mockup with JavaScript-driven charts and graphs.",
 			"skills": "HTML5, CSS, SASS,CSS Transition, JavaScript ,jQury , DOM, Chart.js",
 			"preview": "https://jiwu6498.github.io/Techdegree-Project7/",
