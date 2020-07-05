@@ -1,8 +1,22 @@
 /* ============================================= */
 /*              Footer styles                    */
 /* ============================================= */
+html,body{
+    height:100%;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.dynamic-content{
+    padding-top: 0;
+    flex:1 0 auto;
+}
+
 #contact{
-   
+    flex-shrink:0;
 }
 
 .linkedin{
