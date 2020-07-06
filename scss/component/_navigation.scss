@@ -2,12 +2,13 @@
 /*              Navigation styles                */
 /* ============================================= */
 #nav{
-    // height:8vh;
+   
     border-bottom:3px solid $primary;
-    // font-family: 'Alatsi', sans-serif;
+   
 
     @include media-query-s($break-s) {
-        height: 20vh;
+        height: 12vh;
+        padding:20px 10px;
     }
 }
 
