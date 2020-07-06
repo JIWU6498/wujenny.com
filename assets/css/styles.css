@@ -77,6 +77,11 @@ body {
 #nav {
   border-bottom: 3px solid #dd7564;
 }
+@media (max-width: 480px) {
+  #nav {
+    height: 8vh;
+  }
+}
 
 .nav-item {
   font-size: 1.3em;

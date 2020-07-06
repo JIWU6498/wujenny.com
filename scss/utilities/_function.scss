@@ -5,6 +5,12 @@
     }
  }
 
+ @mixin media-query-s($break-s){
+   @media(max-width:$break-s){
+     @content;
+   }
+ }
+
  @mixin large {
    @media screen and (min-width: #{$large-breakpoint}) {
      @content;
