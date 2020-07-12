@@ -2,41 +2,58 @@
 /*              About styles                     */
 /* ============================================= */
 #about {
-    
-    background-color: $primary-light;
+  background-color: $primary-light;
 
-    color:$primary;
+  color: $primary;
 
-    @include media-query-m($break-m) {
-        height: 100vh;
+  @include media-query-m($break-m) {
+    height: 40vh;
+  }
+
+  .vertical-center {
+    min-height: 100%;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+  }
+
+  #aboutme {
+    margin: auto;
+    color: $primary;
+
+    .hello {
+      font-style: italic;
     }
 
-    .vertical-center{
-        min-height: 100%;
-        min-height: 92vh;
-        display: flex;
-        align-items: center;
+    .name {
+      font-family: "Basic", sans-serif;
+      font-size: 5em;
+      padding-bottom: 20px;
     }
 
-    #aboutme {
-        margin:auto;
-        color: $primary;
-
-        .hello {
-            font-style: italic;
-        }
-        
-        .name{
-            font-family: 'Basic', sans-serif;
-            font-size: 5em;
-            padding-bottom:20px;
-            
-        }
-
-        .btn{
-            color:$secondary;
-            border-color:$secondary;
-        }
+    .btn {
+      color: $secondary;
+      border-color: $secondary;
     }
+  }
+}
 
+#aboutMeSection {
+  hr.line {
+    border-bottom: 3px solid $primary;
+  }
+
+  .architectsDaughter {
+    color: $primary;
+    padding-top: 50px 0;
+    padding-bottom: 40px;
+  }
+  p.selfIntroduction {
+    color: grey;
+    font-size: 1.3em;
+  }
+  .aboutImg {
+    width: 40%;
+    height: 40%;
+  }
 }
