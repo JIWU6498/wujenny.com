@@ -38,22 +38,68 @@
   }
 }
 
-#aboutMeSection {
-  hr.line {
-    border-bottom: 3px solid $primary;
-  }
+.aboutme-background {
+  background-color: $primary-light;
+}
 
-  .architectsDaughter {
-    color: $primary;
-    padding-top: 50px 0;
-    padding-bottom: 40px;
+// #aboutMeSection {
+
+//   hr.line {
+//     border-bottom: 3px solid $primary;
+//   }
+
+//   h1{
+//     color:$primary;
+//   }
+
+//   .architectsDaughter {
+//     color: $primary;
+//     padding-top: 50px 0;
+//     padding-bottom: 40px;
+//   }
+//   p.selfIntroduction {
+//     color: grey;
+//     font-size: 1.3em;
+//   }
+
+//   #aboutImg {
+//     width: 180px;
+//     height: 180px;
+//     border:0.5em solid $primary;
+//   }
+
+//   #callout{
+//     width:80%;
+//     border-left-color:$primary;
+//     border-left-width: thick;
+
+//   }
+
+// }
+
+#aboutMeSection {
+  .left-box {
+    width: 50%;
+    p.selfIntroduction {
+      color: grey;
+      font-size: 1.3em;
+    }
   }
-  p.selfIntroduction {
-    color: grey;
-    font-size: 1.3em;
-  }
-  .aboutImg {
-    width: 40%;
-    height: 40%;
+  .right-box {
+    position: relative;
+    width: 50%;
+    height:500px;
+    background-color: $primary;
+
+    #aboutImg {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top:50px;
+      // bottom:-20px;
+      left:-50px;
+      z-index: 1;
+
+    }
   }
 }

@@ -136,21 +136,30 @@ body {
   border-color: #1fa5a6;
 }
 
-#aboutMeSection hr.line {
-  border-bottom: 3px solid #dd7564;
+.aboutme-background {
+  background-color: #F0EDE6;
 }
-#aboutMeSection .architectsDaughter {
-  color: #dd7564;
-  padding-top: 50px 0;
-  padding-bottom: 40px;
+
+#aboutMeSection .left-box {
+  width: 50%;
 }
-#aboutMeSection p.selfIntroduction {
+#aboutMeSection .left-box p.selfIntroduction {
   color: grey;
   font-size: 1.3em;
 }
-#aboutMeSection .aboutImg {
-  width: 40%;
-  height: 40%;
+#aboutMeSection .right-box {
+  position: relative;
+  width: 50%;
+  height: 500px;
+  background-color: #dd7564;
+}
+#aboutMeSection .right-box #aboutImg {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: -50px;
+  z-index: 1;
 }
 
 /* ============================================= */
