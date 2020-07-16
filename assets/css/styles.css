@@ -92,13 +92,16 @@ body {
 /* ============================================= */
 /*              Skills styles                    */
 /* ============================================= */
-#skills {
-  background-color: #b2dedd;
-}
 #skills h1 {
   padding-top: 50px 0;
   padding-bottom: 40px;
   color: #dd7564;
+}
+#skills .left-box {
+  width: 50%;
+}
+#skills .right-box {
+  width: 50%;
 }
 
 /* ============================================= */
@@ -136,30 +139,27 @@ body {
   border-color: #1fa5a6;
 }
 
-.aboutme-background {
-  background-color: #F0EDE6;
-}
-
 #aboutMeSection .left-box {
   width: 50%;
+}
+#aboutMeSection .left-box h1 {
+  padding-top: 50px 0;
+  padding-bottom: 40px;
+  color: #dd7564;
 }
 #aboutMeSection .left-box p.selfIntroduction {
   color: grey;
   font-size: 1.3em;
+  font-family: "Fondamento", cursive;
 }
 #aboutMeSection .right-box {
-  position: relative;
   width: 50%;
-  height: 500px;
-  background-color: #dd7564;
-}
-#aboutMeSection .right-box #aboutImg {
-  width: 400px;
   height: 400px;
-  position: absolute;
-  top: 50px;
-  left: -50px;
-  z-index: 1;
+  background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: 15px 15px 5px grey;
 }
 
 /* ============================================= */

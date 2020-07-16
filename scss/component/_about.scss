@@ -38,68 +38,29 @@
   }
 }
 
-.aboutme-background {
-  background-color: $primary-light;
-}
-
-// #aboutMeSection {
-
-//   hr.line {
-//     border-bottom: 3px solid $primary;
-//   }
-
-//   h1{
-//     color:$primary;
-//   }
-
-//   .architectsDaughter {
-//     color: $primary;
-//     padding-top: 50px 0;
-//     padding-bottom: 40px;
-//   }
-//   p.selfIntroduction {
-//     color: grey;
-//     font-size: 1.3em;
-//   }
-
-//   #aboutImg {
-//     width: 180px;
-//     height: 180px;
-//     border:0.5em solid $primary;
-//   }
-
-//   #callout{
-//     width:80%;
-//     border-left-color:$primary;
-//     border-left-width: thick;
-
-//   }
-
-// }
-
 #aboutMeSection {
   .left-box {
     width: 50%;
+
+    h1 {
+      padding-top: 50px 0;
+      padding-bottom: 40px;
+      color: $primary;
+    }
+
     p.selfIntroduction {
       color: grey;
       font-size: 1.3em;
+      font-family: "Fondamento", cursive;
     }
   }
   .right-box {
-    position: relative;
     width: 50%;
-    height:500px;
-    background-color: $primary;
-
-    #aboutImg {
-      width: 400px;
-      height: 400px;
-      position: absolute;
-      top:50px;
-      // bottom:-20px;
-      left:-50px;
-      z-index: 1;
-
-    }
+    height:400px;
+    background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 15px 15px 5px grey;
   }
 }

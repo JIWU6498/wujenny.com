@@ -2,14 +2,16 @@
 /*              Skills styles                    */
 /* ============================================= */
 #skills {
-    background-color: $secondary-light;
-    h1 {
-        padding-top: 50px 0;
-        padding-bottom: 40px;
-        color: $primary;
-        // font-family: 'Satisfy', cursive;
-    }
+  h1 {
+    padding-top: 50px 0;
+    padding-bottom: 40px;
+    color: $primary;
+  }
 
-   
-
+  .left-box {
+    width: 50%;
+  }
+  .right-box {
+    width: 50%;
+  }
 }
