@@ -117,4 +117,3 @@ layout: default
         aria-labelledby="projectsModalLabel" aria-hidden="true">
     </div>
 </div>
-
