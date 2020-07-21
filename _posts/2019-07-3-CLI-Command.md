@@ -3,7 +3,6 @@ layout: post
 title: Command-Line Interface CLI Cheatsheet
 ---
 
-## Introduction
 This is a simple guideline and takeaway for reference.
 
 ## List files Command

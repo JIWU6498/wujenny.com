@@ -236,7 +236,7 @@ body {
 
 .content {
   line-height: 2rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 .content h1 {
   padding-top: 50px 0;
@@ -246,15 +246,19 @@ body {
   color: #706F6C;
 }
 .content .article {
-  margin: 25px 0;
+  margin: 5px 0;
+}
+.content .article h1 {
+  color: #dd7564 !important;
 }
 
 .section .list {
   list-style: none;
+  padding: 0;
 }
 .section .list .item .article {
   font-size: medium;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 .section .list .item .article a {
   color: #1fa5a6;

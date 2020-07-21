@@ -20,7 +20,7 @@
 
 .content {
     line-height: 2rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 
     h1 {
         padding-top: 50px 0;
@@ -32,25 +32,25 @@
     }
 
     .article {
-        margin: 25px 0;
+        margin: 5px 0;
+        h1{
+            color:$primary !important;
+        }
     }
 }
 
 .section {
     .list {
         list-style: none;
-
+        padding:0;
         .item {
             .article {
                 font-size: medium;
-                margin-bottom: 50px;
+                margin-bottom: 5px;
                 a {
                     color: $secondary;
                 }
-                h2 {
-                    
-                }
-
+                
                 .small{
                     .time{
                         color:$grey;
