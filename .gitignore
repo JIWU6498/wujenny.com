@@ -2,4 +2,7 @@ _site/
 .sass-cache/
 css
 .DS_Store.DS_Store
-vendor/
+
+# bundler state
+/.bundle
+/vendor/bundle/
