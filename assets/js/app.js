@@ -59,7 +59,7 @@ const projects = {
 		},
 
 	]
-};
+}
 
 const viewButtons = document.getElementsByClassName('viewBtn');
 const modalContainer = document.getElementById('modalContainer');
