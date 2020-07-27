@@ -6,7 +6,7 @@
  }
 
  @mixin media-query-s($break-s){
-   @media(max-width:$break-s){
+   @media(max-width:#{$break-s}){
      @content;
    }
  }
