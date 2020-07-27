@@ -68,7 +68,7 @@ body {
   @media (max-width: 480px) {
     #nav {
       height: 60px !important;
-      padding: 50px 10px !important; } }
+      padding: 25px 10px !important; } }
 
 .nav-item {
   font-size: 1.3em;
