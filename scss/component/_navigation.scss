@@ -5,8 +5,8 @@
    
     border-bottom:3px solid $primary;
     @include media-query-s($break-s) {
-        height: 60px !important;
-        padding:25px 10px !important;
+        height: 50px !important;
+        // padding:25px 10px !important;
     }
 }
 
