@@ -67,8 +67,7 @@ body {
   border-bottom: 3px solid #dd7564; }
   @media (max-width: 480px) {
     #nav {
-      height: 50px !important;
-      padding: 20px 10px !important; } }
+      height: 80px !important; } }
 
 .nav-item {
   font-size: 1.3em;
