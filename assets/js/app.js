@@ -1,20 +1,4 @@
 /* ============================================= */
-/*             Fullpage.js Calling Function      */
-/* ============================================= */
-
-$(document).ready(function () {
-	$('#fullpage').fullpage({
-		//options here
-		autoScrolling: true,
-		scrollHorizontally: true,
-
-		easingcss3: 'ease',
-	});
-	//methods
-	$.fn.fullpage.setAllowScrolling(true);
-});
-
-/* ============================================= */
 /*             Projects Modal Function           */
 /* ============================================= */
 const projects = {
@@ -75,8 +59,7 @@ const projects = {
 		},
 
 	]
-
-}
+;
 
 const viewButtons = document.getElementsByClassName('viewBtn');
 const modalContainer = document.getElementById('modalContainer');
@@ -109,7 +92,7 @@ for (let i = 0; i < viewButtons.length; i++) {
 				</div>
 			</div>
 		</div>
-		`
+		`;
 		modalContainer.appendChild(modal);
 	})
 }

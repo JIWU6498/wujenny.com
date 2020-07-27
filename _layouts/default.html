@@ -18,6 +18,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+   
     <!-- Self CSS -->
     {% for file in site.static_files %}
     {% if file.css %}
@@ -119,7 +120,7 @@
         </div>
     </footer>
 
-</body>
+
 
 
 <!-- SVG Graphics -->
@@ -215,5 +216,5 @@
 <script src="{{file.path}}" alt="{file.name}"></script>
 {% endif %}
 {% endfor %}
-
+</body>
 </html>

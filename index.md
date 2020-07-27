@@ -8,7 +8,7 @@ layout: default
         <div id="aboutme">
             <h5 class="hello">Hey, I'm</h5>
             <h3 class="name">Jianing Wu</h3>
-            <a type="button" class="btn btn-outline-light" href="/projects">View My Projects</a>
+            <a class="btn btn-outline-light" href="/projects">View My Projects</a>
         </div>
     </div>
 </div>
@@ -114,6 +114,6 @@ layout: default
 <!--Projects Modal -->
 <div id="modalContainer">
     <div class="modal fade" id="projectsModal" data-backdrop="static" tabindex="-1" role="dialog"
-        aria-labelledby="projectsModalLabel" aria-hidden="true">
+        aria-hidden="true">
     </div>
 </div>
