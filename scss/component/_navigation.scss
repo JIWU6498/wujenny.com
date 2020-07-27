@@ -4,8 +4,6 @@
 #nav{
    
     border-bottom:3px solid $primary;
-   
-
     @include media-query-s($break-s) {
         height: 12vh;
         padding:50px 10px;
