@@ -10,3 +10,67 @@
 
   
 }
+
+.contactForm{
+  font-size: 1rem;
+  margin: 20px 10px;
+  p.large{
+    line-height: 3.75em;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2rem 0 3.5rem;
+  }
+}
+
+form {
+  input[type=text], input[type=email], textarea {
+      position: relative;
+      top: -.35em;
+      border: none;
+      background: rgba($grey, .2);
+      outline: none;
+      margin: 0 .25em 0 0;
+      font-size: 1.125rem;
+      line-height: 2em;
+      padding: .7em .75em .5em;
+      width: 18.75rem;
+      max-width: 100%;
+      transition: background .3s ease;
+
+      &:focus {
+          background: white;
+          border-bottom: 1px solid rgba($grey, .2);
+      }
+
+      &.small {
+          width: 10rem;
+      }
+      &.client {
+          min-width: 60%;
+          margin: .25em;
+      }
+  }
+
+  input[type=submit] {
+      display: block;
+      float: right;
+      background: none;
+      border: none;
+      border-bottom: 1px solid $primary;
+      color: $primary;
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-size: 2em;
+      // font-family: FreightDispProBook-Regular;
+      transition: color .3s ease, border-color .3s ease;
+
+      // &:hover {
+      //     color: darken($primary 20%);
+      //     border-color: darken($primary, 20%);
+      // }
+      &.client {
+          float: none;
+      }
+  }
+}
