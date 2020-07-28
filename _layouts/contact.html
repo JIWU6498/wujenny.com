@@ -2,33 +2,12 @@
 layout: default
 ---
 
-<!-- <div id="contact-img"></div>
-
-<div class="container-fluid mt-5 mb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-8">
-        <h1>Let's do something interesting !</h1>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <h3 class="pt-5 mt-5 mb-3">
-          Jianing Wu
-        </h3>
-         <span class="pl-2">wujianing15@gmail.com</span><br>
-        <span class="pl-2">https://github.com/JIWU6498</span> 
-  
-        </form>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 <!-- Contact Form -->
 
-<div class="container-fluid my-5">
+<div class="container-fluid my-5" id="sendTextForm">
   <div class="container">
-    <h1>LET'S CHAT</h1>
-    <h3>Fill this out so I can know more about you</h3>
+    <h1 class="contactHeading">LET'S CHAT</h1>
+    <h5>Fill this out so I can know more about you.</h5>
     <form action="https://formspree.io/mzbjywqo" method="POST" class="contactForm">
       <p class="large">
         My name is&nbsp;
@@ -37,11 +16,12 @@ layout: default
         <input type="text" name="organization" placeholder="Organization Name" id="formOrgName" />
         . &nbsp;I would like to&nbsp;
         <input type="text" name="aim" placeholder="My Goal in a Snapshot" id="formAim"/>
-        &nbsp;. You can reach me at&nbsp;
+        &nbsp;and know more about you. You can reach me at&nbsp;
         <input type="email" name="_replyto" placeholder="Email Address" id="formEmail"/>
-        &nbsp;to get converstation started. Thanks!&nbsp;
-        <input type="submit" value="Send"  class="btn btn-primary"/>
+        &nbsp;to get the converstation started. Thanks!&nbsp;     
       </p>
+      <input type="submit" value="Send" />
+      </form>
     </form>
   </div>
 </div>

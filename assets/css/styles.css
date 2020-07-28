@@ -82,6 +82,12 @@ body {
   padding-bottom: 40px;
   color: #dd7564; }
 
+#sendTextForm h1.contactHeading {
+  font-family: "Recursive", sans-serif;
+  color: black;
+  text-decoration: solid;
+  font-weight: 800; }
+
 .contactForm {
   font-size: 1rem;
   margin: 20px 10px; }
@@ -91,28 +97,36 @@ body {
     margin: 0;
     padding: 2rem 0 3.5rem; }
 
-form input[type=text], form input[type=email], form textarea {
+form input[type="text"],
+form input[type="email"],
+form textarea {
   position: relative;
-  top: -.35em;
+  top: -0.35em;
   border: none;
   background: rgba(112, 111, 108, 0.2);
   outline: none;
-  margin: 0 .25em 0 0;
+  margin: 0 0.25em 0 0;
   font-size: 1.125rem;
   line-height: 2em;
-  padding: .7em .75em .5em;
+  padding: 0.7em 0.75em 0.5em;
   width: 18.75rem;
   max-width: 100%;
-  transition: background .3s ease; }
-  form input[type=text]:focus, form input[type=email]:focus, form textarea:focus {
+  transition: background 0.3s ease; }
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form textarea:focus {
     background: white;
     border-bottom: 1px solid rgba(112, 111, 108, 0.2); }
-  form input[type=text].small, form input[type=email].small, form textarea.small {
+  form input[type="text"].small,
+  form input[type="email"].small,
+  form textarea.small {
     width: 10rem; }
-  form input[type=text].client, form input[type=email].client, form textarea.client {
+  form input[type="text"].client,
+  form input[type="email"].client,
+  form textarea.client {
     min-width: 60%;
-    margin: .25em; }
-form input[type=submit] {
+    margin: 0.25em; }
+form input[type="submit"] {
   display: block;
   float: right;
   background: none;
@@ -120,12 +134,14 @@ form input[type=submit] {
   border-bottom: 1px solid #dd7564;
   color: #dd7564;
   padding: 0;
-  margin: 0;
+  margin: 0.5em 0 3em 0;
   outline: none;
-  font-size: 2em;
-  transition: color .3s ease, border-color .3s ease; }
-  form input[type=submit].client {
-    float: none; }
+  font-size: 3em;
+  font-family: "Recursive", sans-serif;
+  transition: color 0.3s ease, border-color 0.3s ease; }
+  form input[type="submit"]:hover {
+    color: #1fa5a6;
+    border-color: #1fa5a6; }
 
 /* ============================================= */
 /*              About styles                     */
