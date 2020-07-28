@@ -3,8 +3,6 @@
 /* ============================================= */
 #about {
   background-color: $primary-light;
-  // background-color: $secondary;
-
   color: $primary;
 
   @include media-query-m($break-m) {

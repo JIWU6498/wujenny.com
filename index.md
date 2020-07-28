@@ -4,7 +4,7 @@ layout: default
 
 <!-- About -->
 <div class="container-fluid" id="about">
-    <div class="container text-center  my-auto vertical-center">
+    <div class="container text-center py-5 my-auto vertical-center">
         <div id="aboutme">
             <h5 class="hello">Hey, I'm</h5>
             <h3 class="name">Jianing Wu</h3>
