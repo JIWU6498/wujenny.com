@@ -95,4 +95,15 @@ for (let i = 0; i < viewButtons.length; i++) {
 		`;
 		modalContainer.appendChild(modal);
 	})
+};
+
+function closeNav(){
+	document.getElementById("overlay-menu").style.width = "0%";
+	
+};
+
+
+function openNav() {
+	document.getElementById("overlay-menu").style.width = "100%";
+
 }
