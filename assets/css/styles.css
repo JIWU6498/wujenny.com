@@ -85,7 +85,7 @@ body {
   /* Sit on top */
   left: 0;
   top: 0;
-  background-color: #dd7564;
+  background-color: #F0EDE6;
   overflow-x: hidden;
   /* Disable horizontal scroll */
   transition: 0.5s;
@@ -108,7 +108,8 @@ body {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #404040;
   display: block;
   /* Display block instead of inline */
   transition: 0.3s;
@@ -116,7 +117,7 @@ body {
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1; }
+  color: #dd7564; }
 
 /* Position the close button (top right corner) */
 .overlay #closebtn {

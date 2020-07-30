@@ -25,7 +25,7 @@
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color:$primary;
+    background-color:$primary-light;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
@@ -44,14 +44,16 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    // color: #818181;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:$bg-dark-grey;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
   }
   
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: $primary;
   }
   
   /* Position the close button (top right corner) */
