@@ -1,5 +1,6 @@
-# JW-Website
-# Jekyll notes
+# Personal Websites
+
+## Jekyll notes
 ###  Run
 bundle exec jekyll serve
 
@@ -18,7 +19,7 @@ bundle exec jekyll serve
 
 ```
 
-# Bootstrap Customization
+## Bootstrap Customization
 There are many ways to customize Bootstrap files. 
 * Customize the SASS by importing the styles in the sass:styles.scss
 * @import "../node_modules/bootstrap/scss/bootstrap";
