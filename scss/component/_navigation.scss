@@ -3,7 +3,7 @@
 /* ============================================= */
 #nav{
    
-    border-bottom:3px solid $primary;
+    border-bottom:5px solid $primary;
     @include media-query-s($break-s) {
         height: 30px !important;
         padding:35px 10px !important;
