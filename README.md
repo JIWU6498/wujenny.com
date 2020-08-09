@@ -39,3 +39,5 @@ Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat 
 <a href='https://www.freepik.com/vectors/technology'>Technology vector created by pikisuperstar - www.freepik.com</a>
 <a href='https://www.freepik.com/vectors/wedding'>Wedding vector created by lukasdedi - www.freepik.com</a>
 <a href='https://www.freepik.com/vectors/hand'>Hand vector created by freepik - www.freepik.com</a>
+
+https://thirtyeightvisuals.com/blog/half-background-squarespace-index
