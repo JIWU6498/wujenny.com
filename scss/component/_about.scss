@@ -4,7 +4,7 @@
 #about {
   background-color: $primary-light;
   color: $primary;
-  height: 100vh;
+  height: 80vh;
   @include media-query-m($break-m) {
     height: 40vh;
   }

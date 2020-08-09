@@ -211,7 +211,7 @@ form input[type="submit"] {
 #about {
   background-color: #F0EDE6;
   color: #dd7564;
-  height: 100vh; }
+  height: 80vh; }
   @media (min-width: 720px) {
     #about {
       height: 40vh; } }
