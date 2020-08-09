@@ -42,11 +42,10 @@
 /* ============================================= */
 #aboutBanner {
   background-color: $primary-light;
-  @include media-query-s($break-s) {
-    #aboutImg{
-     max-width:50%;
-     min-width: 300px;
-     height:auto;
+  #aboutImg{
+    display: none;
+    @include media-query-m($break-m) {
+        display:block;
     }
   }
 }
