@@ -4,16 +4,19 @@
 #about {
   background-color: $primary-light;
   color: $primary;
-
+  height: 100vh;
   @include media-query-m($break-m) {
     height: 40vh;
   }
 
   .vertical-center {
     min-height: 100%;
-    min-height: 30vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
+    @include media-query-m($break-m) {
+      min-height: 40vh;
+    }
   }
 
   #aboutme {

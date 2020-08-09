@@ -210,15 +210,19 @@ form input[type="submit"] {
 /* ============================================= */
 #about {
   background-color: #F0EDE6;
-  color: #dd7564; }
+  color: #dd7564;
+  height: 100vh; }
   @media (min-width: 720px) {
     #about {
       height: 40vh; } }
   #about .vertical-center {
     min-height: 100%;
-    min-height: 30vh;
+    min-height: 100vh;
     display: flex;
     align-items: center; }
+    @media (min-width: 720px) {
+      #about .vertical-center {
+        min-height: 40vh; } }
   #about #aboutme {
     margin: auto;
     color: #dd7564; }
