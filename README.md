@@ -1,5 +1,5 @@
 # Personal Websites
-
+My personal website is hosted at: www.wujenny.com
 ## Jekyll notes
 ###  Run
 bundle exec jekyll serve
