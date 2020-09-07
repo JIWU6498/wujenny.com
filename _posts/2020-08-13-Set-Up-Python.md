@@ -1,6 +1,6 @@
 ---
 layout: post
-title: sSet Up Python in VS code & PyCharm
+title: Set Up Python in VS code & PyCharm
 ---
 
 I spent a couple of hours in setting up my python environment with VS code yesterday. Here is my summary for setting up the python environment both in Pycharm and VS code.
