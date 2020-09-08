@@ -11,4 +11,4 @@ gem "jekyll-feed", "~> 0.9"
 gem "jemoji", "~> 0.9"
 gem "jekyll-remote-theme", "~> 0.3"
 gem "kramdown", ">= 2.3.0"
-
+gem "kramdown-parser-gfm"
