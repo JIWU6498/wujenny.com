@@ -63,12 +63,24 @@ User, Library, Album, Song, Queue, Admin
 3. Picking Out Verb Phrases
 Add song to queue, Play song from the queue, cancel song in queue, identify the user
 
-### UML Class Diagram
+### 6. UML Class Diagram
 
 | Name      | 
 | :---------| 
 | Attribute | 
 | Methods   | 
 
+<br>
+
 ![class diagram](../../../assets/images/2020-09-08-Object-Oriented-Design/class.png)
+
 ![relathionship](../../../assets/images/2020-09-08-Object-Oriented-Design/line.png)
+
+#### Symbols for Access Modifiers
+
+|Access Modifiers| Symbols|
+|:---------------|--------|
+| public         | +      |
+| protected      | #      |
+| internal       | ~      |
+| private        | -      |
