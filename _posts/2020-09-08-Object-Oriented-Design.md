@@ -69,5 +69,6 @@ Add song to queue, Play song from the queue, cancel song in queue, identify the 
 | :---------| 
 | Attribute | 
 | Methods   | 
-![class diagram](../../../assets/images/2020-09-08-Object-Oriented-Design/class diagram.png)
+
+![class diagram](../../../assets/images/2020-09-08-Object-Oriented-Design/class.png)
 ![relathionship](../../../assets/images/2020-09-08-Object-Oriented-Design/line.png)
