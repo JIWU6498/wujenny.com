@@ -15,7 +15,7 @@ const projects = {
     {
       title: "Web Style Guide Study",
       img:
-        "../assets/images/screencapture-wujenny15-github-io-Techdegree-Project4-1593599055591.png",
+        "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project4-1593599055591.png",
       description:
         "Using SASS to pre-process the css styles to format the page",
       skills: "HTML5, CSS, SASS",
@@ -25,7 +25,7 @@ const projects = {
     {
       title: "Interactive Photo Gallery",
       img:
-        "../assets/images/screencapture-wujenny15-github-io-Techdegree-Project5-1593599098340.gif",
+        "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project5-1593599098340.gif",
       description: "Using jQuery plugin to create a interative photo gallery",
       skills: "HTML5, CSS, SASS, JavaScript, jQuery plugin",
       preview: "https://wujenny15.github.io/Techdegree-Project5/",
@@ -34,7 +34,7 @@ const projects = {
     {
       title: "Game Show App",
       img:
-        "../assets/images/screencapture-wujenny15-github-io-Techdegree-Project6-1593599152311.gif",
+        "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project6-1593599152311.gif",
       description:
         "Create a browser version of “Wheel of Success”, a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.",
       skills: "HTML5, CSS, JavaScript, DOM Scripting ,CSS transition",
@@ -44,7 +44,7 @@ const projects = {
     {
       title: "WebApp Dashboard",
       img:
-        "../assets/images/screencapture-wujenny15-github-io-Techdegree-Project7-1593599183303.png",
+        "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project7-1593599183303.png",
       description:
         "Built a web dashboard based on a mockup with JavaScript-driven charts and graphs.",
       skills:
@@ -55,7 +55,7 @@ const projects = {
     {
       title: "API Employee Directory",
       img:
-        "../assets/images/screencapture-wujenny15-github-io-Techdegree-Project8-1593599218682.gif",
+        "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project8-1593599218682.gif",
       description:
         "Communicating with APIs which allows to work with microservices and with vast databases to build useful tools and relevant information quickly and easily.Request a JSON object from the API using fetch and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location.",
       skills: "JavaScript, Promise, JSON, API",
