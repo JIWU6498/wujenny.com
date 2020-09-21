@@ -62,3 +62,12 @@ CRC CARD: class, responsibility and collaboration.
 
 CRH CARD: component, responsibilities, helper
 
+#### Conceptual Model
+1. Picking Out Nouns
+![Use Case Scenario](../../../assets/images/2020-09-08-Object-Oriented-Design/useCaseScenario.png)
+2. Identify the Possible Objects
+User, Libarary, Album, Song, Queue, Admin
+3. Picking Out Verb Phrases
+Add song to queue, Play song from queue, cancel song in queue, identify user
+
+### UML Class Diagram
