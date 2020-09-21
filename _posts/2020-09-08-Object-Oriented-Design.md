@@ -49,15 +49,15 @@ As a ( type of user ), I want ( goal ), so that ( reason )
 Pick up the nouns when identifying the objects. 
 
 * Conceptual Object Model
-
-* CRC CARD: class, responsibility and collaboration.
-![crc card](../../../assets/images/2020-09-08-Object-Oriented-Design/crc.png)
-
 * CRH CARD: component, responsibilities, helper
+* CRC CARD: class, responsibility and collaboration.
+
+![crc card](../../../assets/images/2020-09-08-Object-Oriented-Design/crc.png)
 
 #### Conceptual Model
 1. Picking Out Nouns
 ![Use Case Scenario](../../../assets/images/2020-09-08-Object-Oriented-Design/useCaseScenario.png)
+
 2. Identifying the Possible Objects
 User, Library, Album, Song, Queue, Admin
 3. Picking Out Verb Phrases
@@ -79,7 +79,7 @@ Add song to queue, Play song from the queue, cancel song in queue, identify the 
 #### Symbols for Access Modifiers
 
 |Access Modifiers| Symbols|
-|:---------------|--------|
+|:---------------|:-------|
 | public         | +      |
 | protected      | #      |
 | internal       | ~      |
