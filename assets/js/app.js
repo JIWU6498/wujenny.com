@@ -17,7 +17,7 @@ const projects = {
       img:
         "../assets/images/screencapture-jiwu6498-github-io-Techdegree-Project4-1593599055591.png",
       description:
-        "Using SASS to pre-process the css styles to format the page",
+        "Using SASS to pre-process the css styles to format the page.",
       skills: "HTML5, CSS, SASS",
       preview: "https://wujenny15.github.io/Techdegree-Project4/",
       github: "https://github.com/wujenny15/Techdegree-Project4",
