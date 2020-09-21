@@ -10,7 +10,7 @@ const projects = {
         "Build a responsive,mobile-first layout using HTML and CSS. This layout demonstrates my understanding of responsive design by adjusting to accommodate small, medium and large screen sizes. I wrote CSS to style the page for the small mobile device first and then use min-width media queries. I also add breakpoints to adjust the layout for wider tablet and desktop screens.",
       skills: "HTML5, CSS, JavaScript",
       preview: "https://wujenny15.github.io/Techdegree-Project2/",
-      github: "https://github.com/JIWU6498/Techdegree-Project2",
+      github: "https://github.com/wujenny15/Techdegree-Project2",
     },
     {
       title: "Web Style Guide Study",
@@ -20,7 +20,7 @@ const projects = {
         "Using SASS to pre-process the css styles to format the page",
       skills: "HTML5, CSS, SASS",
       preview: "https://wujenny15.github.io/Techdegree-Project4/",
-      github: "https://github.com/JIWU6498/Techdegree-Project4",
+      github: "https://github.com/wujenny15/Techdegree-Project4",
     },
     {
       title: "Interactive Photo Gallery",
@@ -29,7 +29,7 @@ const projects = {
       description: "Using jQuery plugin to create a interative photo gallery",
       skills: "HTML5, CSS, SASS, JavaScript, jQuery plugin",
       preview: "https://wujenny15.github.io/Techdegree-Project5/",
-      github: "https://github.com/JIWU6498/Techdegree-Project5",
+      github: "https://github.com/wujenny15/Techdegree-Project5",
     },
     {
       title: "Game Show App",
@@ -39,7 +39,7 @@ const projects = {
         "Create a browser version of “Wheel of Success”, a word guessing game where players will click letters from an onscreen keyboard to try to guess a random phrase.",
       skills: "HTML5, CSS, JavaScript, DOM Scripting ,CSS transition",
       preview: "https://wujenny15.github.io/Techdegree-Project6/",
-      github: "https://github.com/JIWU6498/Techdegree-Project6",
+      github: "https://github.com/wujenny15/Techdegree-Project6",
     },
     {
       title: "WebApp Dashboard",
@@ -50,7 +50,7 @@ const projects = {
       skills:
         "HTML5, CSS, SASS,CSS Transition, JavaScript ,jQury , DOM, Chart.js",
       preview: "https://wujenny15.github.io/Techdegree-Project7/",
-      github: "https://github.com/JIWU6498/Techdegree-Project7",
+      github: "https://github.com/wujenny15/Techdegree-Project7",
     },
     {
       title: "API Employee Directory",
@@ -60,7 +60,7 @@ const projects = {
         "Communicating with APIs which allows to work with microservices and with vast databases to build useful tools and relevant information quickly and easily.Request a JSON object from the API using fetch and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location.",
       skills: "JavaScript, Promise, JSON, API",
       preview: "https://wujenny15.github.io/Techdegree-Project8",
-      github: "https://github.com/JIWU6498/Techdegree-Project8",
+      github: "https://github.com/wujenny15/Techdegree-Project8",
     },
   ],
 };
