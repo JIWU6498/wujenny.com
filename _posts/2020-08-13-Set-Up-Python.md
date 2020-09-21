@@ -7,21 +7,21 @@ I spent a couple of hours in setting up my python environment with VS code yeste
 PyCharm
 
 The problems I met was when installing the packages, the system could not found the package. I tried to use PyCharm directly when I could not install the packages with the VS Code. Here is the link for Install, Uninstall and upgrade packages with PyCharm. Follow the instruction, we can set up the env for the program quickly.
-Install, uninstall, and upgrade packages.PyCharm provides methods for installing, uninstalling, and upgrading Python packages for a particular Python…
-www.jetbrains.com
+
+<a href="https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html">Set up with PyCharm</a>
+
 Python in Visual Studio Code
 I do not want to switch applications quite often and thus I prefer to use the VS Code. I took a look at “Python in VS Code” and follow the instructions. Here is the link:
-Get Started Tutorial for Python in Visual Studio Code
 
-In this tutorial, you use Python 3 to create the simplest Python "Hello World" application in Visual Studio Code. By…
-code.visualstudio.com
-Python in Visual Studio Code
-Working with Python in Visual Studio Code, using the Microsoft Python extension, is simple, fun, and productive. The…
-code.visualstudio.com
+<a href="https://code.visualstudio.com/docs/python/python-tutorial">Get Started Tutorial for Python in Visual Studio Code</a>
+
+<a href="https://code.visualstudio.com/docs/languages/python">Python in Visual Studio Code</a>
+
 
 Even I follow the link and I still could not find and install the packages properly. Here is the mistake I made.
 I didn’t select the right python interpreter for my VS Code and it seems like I have different versions of Python installed. So when I press “F5”, it doesn’t know which python interpreter to use.
 Another thing is to create virtual environment for the project.
+
 For macOS/Linux
 ```
 python3 -m venv .venv
