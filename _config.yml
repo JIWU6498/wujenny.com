@@ -1,6 +1,7 @@
 # Set theme
-remote_theme: daviddarnes/alembic
+remote_theme: daviddarnes/alembic@main
 encoding: UTF-8
+
 # File excludes
 exclude:
 - README.md
@@ -15,8 +16,9 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
-- jekyll-default-layout
 - jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
 - jemoji
 - jekyll-remote-theme
 
