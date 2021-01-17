@@ -1,6 +1,6 @@
 # Set theme
 remote_theme: daviddarnes/alembic
-
+encoding: UTF-8
 # File excludes
 exclude:
 - README.md
